@@ -7,7 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+#root {
+
+  min-height: 100vh;
+  width: 100%;
+
+  background-color: rgb(45, 66, 71);
+}
+
+h1 {
+  font-size: 42px;
+
+  color: white;
+}
+
+div::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 14px;
+}
+
+div::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: rgb(30, 47, 51);
+}
+
+div::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: rgb(15, 30, 33);
+  border-radius: 2px;
 }
