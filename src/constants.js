@@ -1,0 +1,1 @@
+export const CLEAR_TIME_STRING = "00:00:00";
