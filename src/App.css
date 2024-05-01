@@ -170,7 +170,7 @@
 
 .intervals {
   padding: 0 24px;
-  height: 300px;
+  max-height: 300px;
 
   color: white;
   overflow: auto;
