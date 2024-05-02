@@ -8,6 +8,11 @@ import { CLEAR_TIME_STRING } from "./constants"
 
 console.log(CLEAR_TIME_STRING);
 
+// TODO: Разбить компоненты на отдельные файлы, добавить state-manager
+// TODO: Реализовать историю
+// TODO: Реализовать список сохранений и загрузку сохранений
+// TODO: Прикрутить к сохраняемым данным о засечённом времени время запуска new Date() и другие данные (?)
+
 function App() {
     const [timeString, setTimeString] = useState(CLEAR_TIME_STRING);
     const [intervalId, setIntervalId] = useState(null);
